@@ -1,14 +1,89 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"success": true,
+	"data": {
+		"categoryList": [{
+			"category_id": 4,
+			"category_name": "Super Hero",
+			"category_type": "Free",
+			"order_number": 3,
+			"category_img": "http://18.222.32.180:3334/category/1526300107842.jpg",
+			"thumb_img": "http://18.222.32.180:3334/category/thumb/1526300107842_thumb.jpg",
+			"description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit",
+			"website_url": "www.superhero.com",
+			"created_date": "2018-05-14 12:15:38",
+			"number_of_images": "21",
+			"categoryImageList": [{
+				"category_name": "Super Hero",
+				"images_id": 35,
+				"category_id": 4,
+				"image_large": "http://18.222.32.180:3334/image_category/1526302160259.jpg",
+				"thumb_img": "http://18.222.32.180:3334/image_category/thumb/1526302160259_thumb.jpg",
+				"status": "Active",
+				"created_date": "2018-05-14 12:50:56"
+			}, {
+				"category_name": "Super Hero",
+				"images_id": 36,
+				"category_id": 4,
+				"image_large": "http://18.222.32.180:3334/image_category/1526302174312.jpg",
+				"thumb_img": "http://18.222.32.180:3334/image_category/thumb/1526302174312_thumb.jpg",
+				"status": "Active",
+				"created_date": "2018-05-14 12:50:56"		
+			}]
+		}, {
+			"category_id": 3,
+			"category_name": "World",
+			"category_type": "Free",
+			"order_number": 2,
+			"category_img": "http://18.222.32.180:3334/category/1526299742382.jpg",
+			"thumb_img": "http://18.222.32.180:3334/category/thumb/1526299742382_thumb.jpg",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			"website_url": "www.world.com",
+			"created_date": "2018-05-14 12:09:14",
+			"number_of_images": "6",
+			"categoryImageList": [{
+				"category_name": "World",
+				"images_id": 15,
+				"category_id": 3,
+				"image_large": "http://18.222.32.180:3334/image_category/1526299803189.jpg",
+				"thumb_img": "http://18.222.32.180:3334/image_category/thumb/1526299803189_thumb.jpg",
+				"status": "Active",
+				"created_date": "2018-05-14 12:11:05"		
+			}]
+		}, {
+			"category_id": 2,
+			"category_name": "Nature",
+			"category_type": "Free",
+			"order_number": 1,
+			"category_img": "http://18.222.32.180:3334/category/1526295446210.jpg",
+			"thumb_img": "http://18.222.32.180:3334/category/thumb/1526295446210_thumb.jpg",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+			"website_url": "https://www.google.com/",
+			"created_date": "2018-05-14 10:57:40",
+			"number_of_images": "11",
+			"categoryImageList": [{
+				"category_name": "Nature",
+				"images_id": 12,
+				"category_id": 2,
+				"image_large": "http://18.222.32.180:3334/image_category/1526299579330.jpg",
+				"thumb_img": "http://18.222.32.180:3334/image_category/thumb/1526299579330_thumb.jpg",
+				"status": "Active",
+				"created_date": "2018-05-14 12:06:34"
+			}, {
+				"category_name": "Nature",
+				"images_id": 13,
+				"category_id": 2,
+				"image_large": "http://18.222.32.180:3334/image_category/1526299591559.jpg",
+				"thumb_img": "http://18.222.32.180:3334/image_category/thumb/1526299591559_thumb.jpg",
+				"status": "Active",
+				"created_date": "2018-05-14 12:06:34"			
+			}]
+		}],
+		"dailyWallpaperList": [{
+			"daily_wallpaper_id": 30,
+			"daily_wallpaper_img": "http://18.222.32.180:3334/wallpaper/1526302563684.jpg",
+			"thumb_img": "http://18.222.32.180:3334/wallpaper/thumb/1526302563684_thumb.jpg",
+			"website_url": "www.google.com",
+			"created_date": "2018-05-14T12:56:35.000Z"
+		}]
+	}
 }
